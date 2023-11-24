@@ -36,7 +36,7 @@ export default function Navbar() {
                         <Button component={Link} to="/rule" sx={{ ...linkstyle, ...(location.pathname === '/rule' && activeLinkStyle) }}>Rule Book</Button>
                         <Button component={Link} to="/analyses" sx={{ ...linkstyle, ...(location.pathname === '/analyses' && activeLinkStyle) }}>Analyses</Button>
                         <Button component={Link} to="/meeting" sx={{ ...linkstyle, ...(location.pathname === '/meeting' && activeLinkStyle) }}>Meeting Log</Button>
-                        <Button component={Link} to="/contributions" sx={{ ...linkstyle, ...(location.pathname === '/team' && activeLinkStyle) }}>Contributions</Button>
+                        <Button component={Link} to="/contributions" sx={{ ...linkstyle, ...(location.pathname === '/contributions' && activeLinkStyle) }}>Contributions</Button>
                         <Button component={Link} to="/references" sx={{ ...linkstyle, ...(location.pathname === '/references' && activeLinkStyle) }}>References</Button>
                     </Typography>
                 </Toolbar>
