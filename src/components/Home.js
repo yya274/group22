@@ -2,7 +2,7 @@ import React from "react";
 import { Typography, Container } from "@mui/material";
 const importAll = (context) => context.keys().map(context);
 const boardUrl = importAll(require.context('./cards/board', false, /\.(png|jpe?g|svg)$/));
-const videoUrl = "";
+const videoUrl = "https://drive.google.com/file/d/1gQ_y4OZC0RKjW0FWXe4xVCS9D2gen-6R/preview";
 
 
 export default function Home() {
@@ -11,22 +11,13 @@ export default function Home() {
             <div style={{ textAlign: "center", marginTop: "1rem" }}>
                 <img src={boardUrl} alt="Game Board" style={{ maxWidth: "75%", height: "auto" }} />
             </div>
-            <Typography variant="h1" component="h1" style={{ marginTop: "2rem", textAlign: "center" }}>Kismet Of Chaos</Typography>
+            <Typography variant="h1" component="h1" style={{ marginTop: "2rem", textAlign: "center" }}>Kismet of Chaos</Typography>
             <Typography variant="h6" component="h1" style={{ marginTop: "2rem", textAlign: "center" }}>
                 Kismet of Chaos is a multiplayer strategy game where players compete against other players through building unique and powerful combinations of skills to be the first player to defeat The Great Demonic Warlord Kaus
             </Typography>
             <div style={{ textAlign: "center", marginTop: "1rem" }}>
-                <iframe
-                    title="Embedded Video"
-                    width="560"
-                    height="315"
-                    src={videoUrl}
-                    allow="autoplay; encrypted-media"
-                    allowFullScreen
-                ></iframe>
+                <iframe title="trailer" src={videoUrl} width="1024" height="640" allow="autoplay"></iframe>
             </div>
-
-
 
             <Typography variant="h4" component="h1" style={{ marginTop: "2rem" }}>Inspirations</Typography>
             <Typography variant="h6" component="h1" style={{ marginTop: "1rem" }}>Dungeons & Dragons</Typography>
