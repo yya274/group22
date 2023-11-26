@@ -34,8 +34,11 @@ export default function Navbar() {
                         <Button component={Link} to="/story" sx={{ ...linkstyle, ...(location.pathname === '/story' && activeLinkStyle) }}>Backstory</Button>
                         <Button component={Link} to="/gallery" sx={{ ...linkstyle, ...(location.pathname === '/gallery' && activeLinkStyle) }}>Visual Gallery</Button>
                         <Button component={Link} to="/rule" sx={{ ...linkstyle, ...(location.pathname === '/rule' && activeLinkStyle) }}>Rule Book</Button>
-                        <Button component={Link} to="/analyses" sx={{ ...linkstyle, ...(location.pathname === '/analyses' && activeLinkStyle) }}>Analyses</Button>
                         <Button component={Link} to="/meeting" sx={{ ...linkstyle, ...(location.pathname === '/meeting' && activeLinkStyle) }}>Meeting Log</Button>
+                        <Button component={Link} to="/testing" sx={{ ...linkstyle, ...(location.pathname === '/testing' && activeLinkStyle) }}>Playtesting Log</Button>
+                        <Button component={Link} to="/flowchart" sx={{ ...linkstyle, ...(location.pathname === '/flowchart' && activeLinkStyle) }}>Flowchart</Button>
+                        <Button component={Link} to="/analysis" sx={{ ...linkstyle, ...(location.pathname === '/analysis' && activeLinkStyle) }}>Quantitative Analysis</Button>
+                        <Button component={Link} to="/descriptions" sx={{ ...linkstyle, ...(location.pathname === '/descriptions' && activeLinkStyle) }}>Descriptions</Button>
                         <Button component={Link} to="/contributions" sx={{ ...linkstyle, ...(location.pathname === '/contributions' && activeLinkStyle) }}>Contributions</Button>
                         <Button component={Link} to="/references" sx={{ ...linkstyle, ...(location.pathname === '/references' && activeLinkStyle) }}>References</Button>
                     </Typography>
