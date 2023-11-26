@@ -2,7 +2,7 @@ import React from "react";
 import { Typography, Container } from "@mui/material";
 
 export default function Analysis() {
-    const pdfUrl = "https://drive.google.com/uc?id=1sTVEz6-9NEN6K0rfINJuUzmHPAPnSB1v";
+    const pdfUrl = "https://drive.google.com/uc?id=12W7MnsggfM8VzVTJPLXEKdKGzzsa3hql";
     return (
         <Container>
             <Typography variant="h4" component="h1" style={{ marginTop: "2rem", textAlign: "center" }}>Quantitative Analysis</Typography>

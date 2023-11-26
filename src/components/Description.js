@@ -44,6 +44,7 @@ export default function Description() {
             <Typography variant="h6" component="h1" style={{ marginTop: "1rem" }}>Skill Choice</Typography>
             <Typography variant="body1" component="p"  >
                 Players must decide how to build their class skills wisely against the current state of the game, and the challenges ahead.
+                <br></br><br></br>
             </Typography>
 
         </Container>

@@ -3,12 +3,14 @@ import { Typography, Container, Button, Grid } from "@mui/material";
 
 export default function Meeting() {
     const meetingLogs = [
-        { id: 1, title: "Meeting Log 1", url: "https://drive.google.com/uc?id=1KvyhgqL3oqcZkf4g6j7kXIT2O8q1bVTr" },
-        { id: 2, title: "Meeting Log 2", url: "https://drive.google.com/uc?id=1KvyhgqL3oqcZkf4g6j7kXIT2O8q1bVTr" },
-        { id: 3, title: "Meeting Log 3", url: "/meeting/3" },
-        { id: 4, title: "Meeting Log 4", url: "/meeting/4" },
-        { id: 5, title: "Meeting Log 5", url: "/meeting/5" },
-        { id: 6, title: "Meeting Log 6", url: "/meeting/6" },
+        { id: 1, title: "Meeting Log 1", url: "https://drive.google.com/uc?id=1ZzH9GZ061vbWLvOsUnxTLmEpSqaKyQ3k" },
+        { id: 2, title: "Meeting Log 2", url: "https://drive.google.com/uc?id=1SajFgyUqH5bQu5pGWeQG14FWQdExoymG" },
+        { id: 3, title: "Meeting Log 3", url: "https://drive.google.com/uc?id=1kJ_nRGCiWvNFSMZH34dsY1cekDg2vKNG" },
+        { id: 4, title: "Meeting Log 4", url: "https://drive.google.com/uc?id=1SDS-g6_95a4QvMUp_URYKi0KwCbbLh3b" },
+        { id: 5, title: "Meeting Log 5", url: "https://drive.google.com/uc?id=1Ps9Cmd0g9eErfLCy7ybLc-7MVpfxbepn" },
+        { id: 6, title: "Meeting Log 6", url: "https://drive.google.com/uc?id=1HbM3ZYzHJ8JXFWGPO2jw-a22Gs7z-Mgn" },
+        { id: 7, title: "Meeting Log 7", url: "https://drive.google.com/uc?id=10h0VWU0jLbLK0yE-AAcTy_MhHvT7YVg1" },
+        { id: 8, title: "Meeting Log 8", url: "https://drive.google.com/uc?id=1hBq_I0FIyYqlkWgn1v3TIe3u_C9XbaTO" },
     ];
 
     const [selectedLog, setSelectedLog] = useState(meetingLogs[0]);

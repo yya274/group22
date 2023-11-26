@@ -278,6 +278,7 @@ export default function Gallery() {
                     </Grid>
                 ))}
             </Grid>
+            <br></br>
         </Container>
     )
 }

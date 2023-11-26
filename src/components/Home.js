@@ -12,8 +12,9 @@ export default function Home() {
                 <img src={boardUrl} alt="Game Board" style={{ maxWidth: "75%", height: "auto" }} />
             </div>
             <Typography variant="h1" component="h1" style={{ marginTop: "2rem", textAlign: "center" }}>Kismet Of Chaos</Typography>
-
-
+            <Typography variant="h6" component="h1" style={{ marginTop: "2rem", textAlign: "center" }}>
+                Kismet of Chaos is a multiplayer strategy game where players compete against other players through building unique and powerful combinations of skills to be the first player to defeat The Great Demonic Warlord Kaus
+            </Typography>
             <div style={{ textAlign: "center", marginTop: "1rem" }}>
                 <iframe
                     title="Embedded Video"
@@ -48,16 +49,17 @@ export default function Home() {
             <Typography variant="h4" component="h1" style={{ marginTop: "2rem" }}>Pillars</Typography>
             <Typography variant="h6" component="h1" style={{ marginTop: "1rem" }}>What</Typography>
             <Typography variant="body1" component="p"  >
-                Create a mediaeval hero adventure where players navigate a dynamic world, engage in tactical boss battles, and forge unique character paths through the gameplay.
+                Become powerful enough to be the first hero to defeat The Great Demonic Warlord Kaus.
             </Typography>
             <Typography variant="h6" component="h1" style={{ marginTop: "1rem" }}>How</Typography>
             <Typography variant="body1" component="p"  >
-                Empower players by offering diverse class options and a progression system that allows them to customise their heroes, unlocking new skills and legendary abilities as they ascend through challenging levels.
+                By defeating various bosses to obtain skills from them that allows you to Ascend to higher levels of strength, collecting power-ups along the way, and fighting against other players in combat to steal their power-ups.
             </Typography>
             <Typography variant="h6" component="h1" style={{ marginTop: "1rem" }}>Why</Typography>
             <Typography variant="body1" component="p"  >
-                Immerse players in a mediaeval fantasy world to defeat powerful bosses and emerge victorious.
+                To achieve glory as the Legendary Hero that saved the Kingdom of Kismet from the tyranny of Kaus.
             </Typography>
+            <br></br>
         </Container>
     )
 }
