@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/group22/static/css/main.f855e6bc.css",
-    "main.js": "/group22/static/js/main.89746b9a.js",
+    "main.js": "/group22/static/js/main.a97fb931.js",
     "static/js/787.57b039bb.chunk.js": "/group22/static/js/787.57b039bb.chunk.js",
     "static/media/board_game.png": "/group22/static/media/board_game.430b31673590a09a2f3b.png",
     "static/media/0.png": "/group22/static/media/0.54aeb0ed894b5c55d183.png",
@@ -40,15 +40,16 @@
     "static/media/goblin.jpg": "/group22/static/media/goblin.f00bc99e25826ba15f44.jpg",
     "static/media/bear.jpg": "/group22/static/media/bear.38cf27d6bb1d7361b47f.jpg",
     "static/media/slime.jpg": "/group22/static/media/slime.3d2aa53dfc92bad8c125.jpg",
+    "static/media/White-Six-Sided-Dice.jpg": "/group22/static/media/White-Six-Sided-Dice.09ff2cdfb5adccf4af13.jpg",
     "static/media/0.jpg": "/group22/static/media/0.8777693dc6681650ac67.jpg",
     "static/media/dice.png": "/group22/static/media/dice.6debbdd90d01dc0861e8.png",
     "index.html": "/group22/index.html",
     "main.f855e6bc.css.map": "/group22/static/css/main.f855e6bc.css.map",
-    "main.89746b9a.js.map": "/group22/static/js/main.89746b9a.js.map",
+    "main.a97fb931.js.map": "/group22/static/js/main.a97fb931.js.map",
     "787.57b039bb.chunk.js.map": "/group22/static/js/787.57b039bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.89746b9a.js"
+    "static/js/main.a97fb931.js"
   ]
 }
