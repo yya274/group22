@@ -35,7 +35,9 @@ export default function Gallery() {
 
             <Typography variant="h4" component="h1" style={{ marginTop: "2rem" }}>Dice</Typography>
             <div style={{ textAlign: "center", marginTop: "1rem" }}>
-                <img src={diceUrl} alt="Game Board" style={{ maxWidth: "75%", height: "auto" }} />
+                {diceUrl.map((card, index) => (
+                    <img src={card} alt={index} style={{ maxWidth: "75%", height: "auto" }} />
+                ))}
             </div>
 
             <Typography variant="h4" component="h1" style={{ marginTop: "2rem" }}>Event Cards</Typography>
